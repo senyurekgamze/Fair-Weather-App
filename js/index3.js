@@ -15,7 +15,6 @@ function formatDate(date) {
   let hour = date.getHours();
   let minutes = date.getMinutes();
 
-  // Add a leading zero to the hour and minutes if they are less than 10
   if (hour < 10) {
     hour = `0${hour}`;
   }
