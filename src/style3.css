@@ -1,0 +1,205 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: #142d4c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Neucha", cursive;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.form-container {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px 0px 70px;
+}
+
+.main-card {
+  border-radius: 15px;
+}
+
+.app-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4em;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px 30px 20px 30px;
+  max-width: 600px;
+}
+
+#search {
+  font-size: 12px;
+  padding: 0.6em 1.5em;
+  color: #142d4c;
+}
+
+#search-button {
+  border: none;
+  color: #142d4c;
+  background-image: linear-gradient(20deg, #5c83b2, #bbf0e4);
+  border-radius: 15px;
+  background-size: 100% auto;
+  font-size: 12px;
+  padding: 0.6em 1.5em;
+}
+
+#search-button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(85, 252, 252, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+
+#button-location {
+  border: none;
+  color: #142d4c;
+  background-image: linear-gradient(20deg, #5c83b2, #bbf0e4);
+  border-radius: 15px;
+  font-size: 15px;
+  margin-top: 0px;
+  padding: 5px 20px;
+}
+
+#button-location:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(85, 252, 252, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+
+.city-card {
+  padding: 10px 10px 0px 30px;
+}
+form {
+  margin: 20px auto;
+  display: block;
+}
+
+input {
+  border-style: solid;
+  width: 60%;
+  border-radius: 15px;
+  background: transparent;
+  font-size: medium;
+}
+
+.current-location {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#clouds {
+  text-transform: capitalize;
+}
+
+.day-card {
+  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  min-width: 80px;
+  max-width: 120px;
+  border-radius: 15px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 10px 10px 0px 10px;
+  border-style: ridge;
+}
+.min-temp {
+  opacity: 60%;
+  font-size: 12px;
+}
+.today-temp {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+}
+.temperature {
+  font-size: 45px;
+  position: relative;
+}
+.units {
+  position: relative;
+  font-size: 14px;
+}
+
+.active {
+  color: #142d4c;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: #142d4c;
+}
+
+.hosting {
+  font-size: smaller;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#github {
+  text-decoration: none;
+  font-weight: bold;
+  color: #214673;
+}
+#github:hover {
+  text-decoration: underline;
+}
+.temp {
+  margin-bottom: 0px;
+}
+.day {
+  margin-bottom: 0px;
+}
+.icon {
+  margin-bottom: 0px;
+}
+
+#icon-today {
+  display: block;
+  margin: 0 auto;
+}
+.icon-forecast {
+  position: relative;
+  top: -10px;
+}

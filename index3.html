@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="src/style3.css
+
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="src/style3.css" rel="stylesheet" type="text/css" />    
+  </head>
+  <body>
+    
+    <div class="app-container">
+      <div class="form-container">
+        <form>
+          <input
+            type="text"
+            id="search"
+            placeholder="Type a city..."
+            autofocus="on"
+          />
+          <button type="submit" id="search-button" class="btn btn-light">
+            Search
+          </button>
+          <button
+            type="submit"
+            class="btn btn-success current-location"
+            id="button-location"
+          >
+            📍
+          </button>
+        </form>
+      </div>
+      <div class="main-card card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-7 city-card">
+              <h1 class="city" id="h1city">Amsterdam</h1>
+              <h2 class="time" id="currentTime">12:00 PM</h2>
+
+              <h2 class="precipitation">
+                <br /><span id="clouds">Partly Cloudy </span> <br />
+                <span id="precipitation">Precipitation: 50% </span><br />
+                Wind: <span id="wind">12 km/h</span>
+              </h2>
+            </div>
+            <div class="col-sm-4 today-temp">
+              
+
+              <span class="temperature" id="temperature"></span>
+              <span class="units"> 
+                <a href="#" id="celsius-link" class="active">°C</a>
+              </span>
+              <img src="" alt="icon" id="icon-today" width="120" class="float-right" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="weather-forecast" id="forecast">
+        
+      </div>
+
+      <div class="hosting">
+        <a
+          href="https://github.com/"
+          target="_blank"
+          id="github"
+          >Open-source code</a
+        >
+        by Gamze Senyurek
+      </div>
+    </div>
+
+    <script src= "js/index3.js"></script>;
+    </script>
+  </body>
+</html>
