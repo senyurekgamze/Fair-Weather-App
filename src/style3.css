@@ -35,6 +35,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 30px 30px 20px 30px;
   max-width: 600px;
+  flex-direction: row;
 }
 
 #search {
@@ -46,7 +47,7 @@ h2 {
 #search-button {
   border: none;
   color: #142d4c;
-  background-image: linear-gradient(20deg, #5c83b2, #bbf0e4);
+  background-image: linear-gradient(20deg, #658fc2, #bbf0e4);
   border-radius: 15px;
   background-size: 100% auto;
   font-size: 12px;
@@ -77,7 +78,7 @@ h2 {
 #button-location {
   border: none;
   color: #142d4c;
-  background-image: linear-gradient(20deg, #5c83b2, #bbf0e4);
+  background-image: linear-gradient(20deg, #658fc2, #bbf0e4);
   border-radius: 15px;
   font-size: 15px;
   margin-top: 0px;
@@ -115,7 +116,8 @@ form {
 }
 
 input {
-  border-style: solid;
+  border-style: double;
+  border-color: #658fc2;
   width: 60%;
   border-radius: 15px;
   background: transparent;
@@ -142,7 +144,9 @@ input {
 .card-body {
   flex: 1 1 auto;
   padding: 10px 10px 0px 10px;
-  border-style: ridge;
+  border-style: double;
+  border-color: #ace0f9;
+  border-radius: 15px;
 }
 .min-temp {
   opacity: 60%;
