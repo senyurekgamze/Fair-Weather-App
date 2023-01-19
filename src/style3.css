@@ -24,6 +24,7 @@ h2 {
 
 .main-card {
   border-radius: 15px;
+  margin: 10px 20px 30px 40px auto;
 }
 
 .app-container {
@@ -143,10 +144,15 @@ input {
   border-radius: 15px;
 }
 
+.city-card {
+  margin: 5px auto;
+}
+
 .today-temp {
   text-align: right;
   font-size: 60px;
   font-weight: 200;
+  margin-right: 10px;
 }
 .temperature {
   font-size: 45px;

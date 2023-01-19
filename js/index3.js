@@ -81,10 +81,6 @@ function getForecast(coordinates) {
 function showWeather(response) {
   document.querySelector("#h1city").innerHTML = response.data.name;
 
-  let temperatureElement = document.querySelector("#temperature");
-  celsiusTemp = response.data.main.temp;
-  temperatureElement.innerHTML = Math.round(celsiusTemp);
-
   let description = document.querySelector("#clouds");
   description.innerHTML = response.data.weather[0].description;
 
@@ -95,6 +91,9 @@ function showWeather(response) {
   let todayWind = Math.round(response.data.wind.speed);
   let wind = document.querySelector("#wind");
   wind.innerHTML = `${todayWind} km/h`;
+  let temperatureElement = document.querySelector("#temperature");
+  celsiusTemp = response.data.main.temp;
+  temperatureElement.innerHTML = Math.round(celsiusTemp);
 
   let iconElement = document.querySelector("#icon-today");
   iconElement.setAttribute(
