@@ -19,7 +19,7 @@ h2 {
 .form-container {
   display: block;
   margin: 0 auto;
-  padding: 0px 10px 0px 70px;
+  padding: 0px 10px 0px 10px;
 }
 
 .main-card {
@@ -33,9 +33,8 @@ h2 {
   border-radius: 20px;
   backdrop-filter: blur(2px);
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 30px 30px 20px 30px;
+  padding: 30px;
   max-width: 600px;
-  flex-direction: row;
 }
 
 #search {
@@ -106,12 +105,8 @@ h2 {
   }
 }
 
-.city-card {
-  padding: 10px 10px 0px 30px;
-}
-
 form {
-  margin: 20px auto;
+  margin: 10px -5px;
   display: block;
 }
 
@@ -121,7 +116,6 @@ input {
   width: 60%;
   border-radius: 15px;
   background: transparent;
-  font-size: medium;
 }
 
 .current-location {
@@ -138,23 +132,20 @@ input {
   margin: 10px;
   padding: 0px;
   min-width: 80px;
-  max-width: 120px;
+  max-width: 100px;
   border-radius: 15px;
 }
 .card-body {
   flex: 1 1 auto;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 15px;
   border-style: double;
   border-color: #ace0f9;
   border-radius: 15px;
 }
-.min-temp {
-  opacity: 60%;
-  font-size: 12px;
-}
+
 .today-temp {
-  text-align: center;
-  font-size: 50px;
+  text-align: right;
+  font-size: 60px;
   font-weight: 200;
 }
 .temperature {
